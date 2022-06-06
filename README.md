@@ -3,35 +3,36 @@
 #### 介绍
 多用户在线网盘，Java开发，数据库MySQL
 
-#### 软件架构
-软件架构说明
+技术人员扣扣 1516993194 或者 2551449109
+【项目可以定做，可以修改，可以讲解，包调试】
+
+云网盘管理系统： ssm框架/Springboot框架
+采用java作为开发语言，Tomcat作为web服务器，mysql作为数据库，
+Eclipse/IDEA为集成开发环境。【目前演示我用的是idea  可以在myeclipse和eclipse都可以运行】
+
+系統功能：
+1.用户登录注册
+2.网盘视频，音乐，图片，文件，压缩包上传下载
+3.网盘文件分享，类似于百度云链接分享
+4.管理员用户管理
+5.网盘文件在线预览
+6.网盘文件共享，用户文件共享以后，所有用户都可以下载查看预览
+7.网盘目录管理，可以分文件夹管理网盘目录，无限极目录管理
+8.账号密码修改
 
 
-#### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+运行后访问地址：
+http://localhost:8080/cloud/login
+管理员 admin 123456 【管理员可以管理用户】
+普通用户 tianming 123456 【可以自由注册】
 
 
-#### 特技
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+网盘文件默认用户保存路径为:C:\Tomcat\CloudData
+如果需要修改，可在com.post.util.SystemConstant中修改
+
+#### 系统功能实现截图
+![输入图片说明](%E4%B8%8A%E4%BC%A0%E4%B8%8B%E8%BD%BD%E5%88%97%E8%A1%A8.jpg)
+![输入图片说明](%E7%94%A8%E6%88%B7%E6%B3%A8%E5%86%8C.jpg)
+
